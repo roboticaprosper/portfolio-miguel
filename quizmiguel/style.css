@@ -1,0 +1,102 @@
+body {
+
+
+
+      margin: 0;
+      font-family: Arial, sans-sans-serif ;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      background-image: url(image.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+
+}
+
+.quiz {
+   background:wheat;
+   border: 6px solid black;
+   border-radius: 20px;
+   padding: 30px;
+   width: 600px;
+   max-width: 90%;
+   text-align:center;
+
+
+
+
+
+}
+
+
+
+h1 {            
+ color: aqua;
+ margin-bottom: 10px
+}
+
+#score {
+  margin-bottom: 20px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#pergunta{
+  margin: 25px 0;
+  font-size: 22px;
+  font-weight: bold;
+
+
+
+}
+
+#opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.opcao{
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: nome;
+  background: blue;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.opcao:hover {
+  transform: scale(1.02);
+}
+.certo {
+  background: chartreuse;
+  color: aliceblue;
+}
+
+.errada {
+ background: red;
+ color: aliceblue;
+}
+
+
+
+#proximo {
+  margin-top: 20px;
+  padding: 12px;
+  width: 12px;
+  border: none;
+  border-radius:10px;
+  background: white;
+  color: white;
+  cursor: pointer;
+   
+
+}
+
